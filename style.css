@@ -170,11 +170,6 @@ p {
   color: hsl(39, 100%, 75%)
 }
 
-
-
-
-
-
 /* Footer styles */
 
 .footer {
@@ -185,6 +180,64 @@ p {
   color: hsl(0, 0%, 73%);
 }
 
+.footer p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
 .footer a {
   color: hsl(0, 0%, 73%);
+}
+
+/* Tablet styles */
+
+@media only screen and (max-width: 960px){
+  .main {
+    width: 75%;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 580px){
+  .main {
+    width: 100%;
+    display: block;
+  }
+
+  .results, .summary {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .score {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  #result-score {
+    padding-top: 2.5rem;
+  }
+
+  .results-text {
+    font-size: 1rem;
+  }
+
+  .par-name{
+    font-size: 1rem;
+  }
+
+  .par-score {
+    font-size: 0.9rem;
+  }
+
+  .parameter img {
+    width: 8%;
+  }
+
+  .continue-btn {
+    font-size: 1.1rem;
+    padding: 0.9rem;
+  }
 }
