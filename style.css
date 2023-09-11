@@ -1,0 +1,93 @@
+/* Common styles */
+body {
+  font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 18px;
+}
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Desktop styles */
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  border-radius: 1.5rem;
+  display: flex;
+  box-shadow: 1rem 1.5rem 2rem hsla(241, 72%, 46%, 0.055);
+}
+
+.results, .summary {
+  width: 50%;
+  padding: 1rem;
+
+}
+
+.results {
+  border-radius: 1.5rem;
+  background-image: linear-gradient(hsl(252, 100%, 63%), hsl(241, 81%, 54%));
+  color: hsla(241, 100%, 89%, 80%)
+}
+
+.results h2 {
+  font-size: 1.15rem;
+}
+
+.results h1, .result-score{
+  color: hsl(0, 0%, 100%);
+}
+
+.score {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+#result-score {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0 0;
+  padding-top: 1.5rem;
+
+}
+
+.score-range {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.results h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.results-text {
+  padding: 0 0.75rem;
+  font-size: 0.83rem;
+}
+
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: hsl(0, 0%, 73%);
+}
+
+.footer a {
+  color: hsl(0, 0%, 73%);
+}
