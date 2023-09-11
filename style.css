@@ -188,6 +188,9 @@ p {
   color: hsl(0, 0%, 73%);
 }
 
+/* Styles for big screens */
+
+
 /* Tablet styles */
 
 @media only screen and (max-width: 960px){
@@ -200,6 +203,7 @@ p {
   }
 }
 
+/* Mobile styles */
 @media only screen and (max-width: 580px){
   .main {
     width: 100%;
