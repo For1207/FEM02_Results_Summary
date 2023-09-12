@@ -36,7 +36,8 @@ Desktop design with the clicked button:
 ![Desktop_active.png](assets/images/screenshots/Desktop_active.png)
 
 Mobile design:
-![](assets/images/screenshots/Mobile.png)
+
+<img src="./assets/images/screenshots/Mobile.png" alt="Mobile screenshot" style="max-width: 50%;">
 
 ## My process
 
